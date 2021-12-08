@@ -1,4 +1,4 @@
-module.exports.sum = (a, b) => {
+export const sum = (a, b) => {
   const number1 = parseInt(a, 10);
   const number2 = parseInt(b, 10);
 
@@ -9,7 +9,7 @@ module.exports.sum = (a, b) => {
   return number1 + number2;
 };
 
-module.exports.subtract = (a, b) => {
+export const subtract = (a, b) => {
   const number1 = parseInt(a, 10);
   const number2 = parseInt(b, 10);
 
@@ -20,7 +20,7 @@ module.exports.subtract = (a, b) => {
   return number1 - number2;
 }
 
-module.exports.multiply = (a, b) => {
+export const multiply = (a, b) => {
   const number1 = parseInt(a, 10);
   const number2 = parseInt(b, 10);
 
@@ -31,7 +31,7 @@ module.exports.multiply = (a, b) => {
   return number1 * number2;
 }
 
-module.exports.divide = (a, b) => {
+export const divide = (a, b) => {
   const number1 = parseInt(a, 10);
   const number2 = parseInt(b, 10);
 

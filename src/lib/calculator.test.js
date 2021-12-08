@@ -1,4 +1,4 @@
-const { sum, subtract, multiply, divide } = require('./calculator');
+import { sum, subtract, multiply, divide } from './calculator';
 
 describe('Sum tests', () => {
   it('should sum 2 and 2 and the result must be 4', () => {
